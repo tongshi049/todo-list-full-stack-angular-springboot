@@ -1,0 +1,32 @@
+<h1>Register!</h1>
+
+<div class="container">
+    <div class="alert alert-warning" *ngIf='invalidRegister'>{{errorMessage}}</div>
+    <div class="alert alert-success" *ngIf='successfullyRegister'>You have successfully registered
+        click <a routerLink="/login">here</a> to login.</div>
+  
+    <form (ngSubmit)="register()">
+      <fieldset class="form-group">
+        <label>User Name</label>
+        <input type="text" [(ngModel)]="user.username" class="form-control"
+               name="username" required="required"> 
+      </fieldset>
+      <fieldset class="form-group">
+        <label>Password</label>
+        <input type="text" [(ngModel)]="user.password" class="form-control"
+               name="password" required="required">
+      </fieldset>
+      <button class="btn btn-success" type="submit">Register</button>
+    </form>
+
+    
+    <!-- <div>
+    User Name : <input type="text" name="username" [(ngModel)]="username" >
+    Password  : <input type="password" name="password" [(ngModel)]="password">  -->
+
+    <!-- <button class="btn btn-success" (click)=handleLogin()>Login</button> -->
+    <!-- <button class="btn btn-success" (click)=handleBasicAuthLogin()>Login</button> -->
+    
+    <!-- <button class="btn btn-success" (click)=handleRegister()>Register</button>
+    </div>  -->
+</div>
