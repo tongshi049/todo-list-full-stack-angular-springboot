@@ -1,19 +1,18 @@
-# todo-list-full-stack-angular-springboot
+# full-stack-angular-springboot-todo-list
 
 **A full stack project using *Angular* and *SpringBoot*.**
 
-#
 If you are also interested in Angular and SpringBoot like me, just don't miss this project. You can [find more about this project, Angular, Spring, SpringBoot](https://tongshi049.github.io/2019/05/15/todoList/) in my blog.
 
 #
 
 ## Overview
 
-1. Use **Angular** to build **front-end**.
-2. Use **SpringBoot** to build a **RESTful** back-end service.
-3. Connect **Angular Frontend** to **Spring Boot RESTful Services**.
-4. Connect **Spring Security** with **JWT**.
-5. Connect **REST API** With **JPA** and **Hibernate**.
+1. Develops **front-end** using **Angular**.
+2. Develops a **RESTful** back-end service utilizing **SpringBoot**.
+3. Designs the connection between **Angular Frontend** to **Spring Boot RESTful Services**.
+4. Upgrades **Spring Security** with **JWT**.
+5. Designs the connection between the **REST API** With **JPA** and **Hibernate**.
 #
 
 ## Project Snapshot
@@ -116,7 +115,7 @@ Modify the data in database using sql statements in `data.sql`.
 
 #
 
-### devDependencies
+### Dependencies
 
 Front-End:
 - "@angular-devkit/build-angular": "~0.13.0",
